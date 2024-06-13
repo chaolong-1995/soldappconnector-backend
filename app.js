@@ -7,8 +7,10 @@ var indexRouter = require('./routes/index');
 var walletsRouter = require('./routes/wallets.js');
 const { default: Moralis } = require('moralis');
 const { MORALIS_API_KEY } = require('./constants.js');
+const cors = require('cors');
 
 var app = express();
+app.use(cors());
 
 Moralis.start({
     apiKey: MORALIS_API_KEY,

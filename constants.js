@@ -4,7 +4,7 @@ const IS_MAINNET = process.env.IS_MAINNET ?? false;
 
 const SOL_NETWORK = IS_MAINNET ? SolNetwork.MAINNET : SolNetwork.DEVNET;
 
-const TREASURY_ACCOUNT = "9Qr9LywsHJ1izoX826DoewZXKyyWytaKA8psTXVzvzeC";
+const TREASURY_ACCOUNT = "3es1ckHmP6PXArEh3nJsKHTLMe5E9TJAVS7PYh743wK6";
 
 const DEFAULT_PRIVATE_KEY = "4jJTkUE4JUXwxJjtvxSRS9218JggNsKTeqQa2cq6oYjrxPSTsQ7zYDkTkZ1bhAgijQyaUgqTHu9n3t3q9EnTTXTW"
 const MAINNET_RPC_ENDPOINT = 'https://example.solana-mainnet.quiknode.pro/000000/';
